@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; 
+
+}
+
+body{
+    background-color:rgb(2, 2, 54);
+       
+    
+}
+.header{
+   background-color: rgb(2, 2, 54);
+   height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+.logo{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+    color: bisque;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: bisque;
+    padding-left: 15px;
+}
+.navbar a:hover{
+    color: red;
+}
+#home{
+   
+   display: flex;
+   height: 100vh;
+   padding: 0 10%;
+   align-items: center;
+   background-image: url('images/');
+   background-size: cover;
+}
+.content{
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 30px;
+    border-radius: 20px;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: aliceblue;
+    line-height: 1.5;
+}
+.content h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(7, 145, 150);
+
+}
+.content p{
+    margin: 20px 0 40px;
+    font-size: 15px;
+    color: beige;
+}
+.btn a{
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.btn a:nth-child(2){
+    background-color: transparent;
+    color: aqua;
+    margin-left: 10px;
+}
+.social-icon{
+    position: absolute;
+    bottom: 50px;
+    background-color: transparent;
+}
+.social-icon a{
+    display: inline-flex;
+    text-decoration: none;
+    color: aqua;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.service{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    height: 300px;
+}
+.service div{
+    border: 3px solid rgb(2, 2, 66);
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
