@@ -40,7 +40,7 @@ body{
    height: 100vh;
    padding: 0 10%;
    align-items: center;
-   background-image: url('images/');
+   background-image: url('images/dd.jpg');
    background-size: cover;
 }
 .content{
@@ -105,16 +105,41 @@ body{
     margin-left: 10px;
 
 }
-.service{
+
+#service{
+    margin-top: 10px;
+    background-color: rgb(25, 43, 51);
+    height: 600px;
     display: flex;
-    background-color: aqua;
-    justify-content: space-around;
-    height: 300px;
+    align-items: center;
+    justify-content:center ;
 }
-.service div{
-    border: 3px solid rgb(2, 2, 66);
+.service-form{
+    border-radius: 20px;
+    background-color: black;
+    height: 400px;
+    width: 40%;
+   padding: 50px;
+   box-shadow: 0 0 20px 0 aqua;
+}
+.input-field{
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    border: 1px solid aqua;
     border-radius: 10px;
-    height: 200px;
-    width: 200px;
-    margin-top: 50px;
+}
+.textarea-field{
+    height: 100px;
+}
+.btn-field{
+    background-color: rgb(42, 165, 149);
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:5px;
+    font-size: 15px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+
 }
